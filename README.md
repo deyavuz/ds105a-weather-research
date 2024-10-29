@@ -13,3 +13,6 @@ Is London really as rainy as the movies make it out to be?
 
 1) The time period I have chosen is between 
     I initially wanted to choose a start date that had significance for movies (e.g., the first movie screening in London). However, OpenMeteo's API does not go that far back, so I decided to adapt the data I am using into
+2) Number and selection of cities being compared to London
+
+3) My Raininess Index (and the variables used from OpenMeteo's API to create it)
