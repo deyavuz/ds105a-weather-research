@@ -9,7 +9,7 @@ Is London really as rainy as the movies make it out to be?
 
 ## Table of Contents
 | No | Name | Content |
-| :--: | :--: | :--- |
+| :--: | :--- | :--- |
 | 1 | Raininess Index | How I decided on my variables and created my Raininess Index |
 | 2 | World Cities Selection | x |
 | 3 | | |
