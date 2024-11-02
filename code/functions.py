@@ -24,13 +24,18 @@ def get_lat_lon(country_code, city):
 
     return latitude, longitude
 
+## Function to print the latitude and longitude of a country, city
+def print_location_lat_lon(country, city):
+    latitude, longitude = get_lat_lon(country, city)
+    print(f"The latitude and longitude of {country}, {city} is ({latitude}, {longitude})")
+
 ## Creating a function that builds an API URL for historical weather data when I put in the latitude, longitude, start and end dates
 def build_url(latitude: float, longitude: float, start_date:str , end_date: str):
-    base_historical_url = "https://historical-forecast-api.open-meteo.com/v1/forecast?"
+    base_historical_url = "https://archive-api.open-meteo.com/v1/archive?"
     params_lat_long     = "latitude=" + str(latitude) + "&longitude="  + str(longitude)
     params_date         = "&start_date=" + start_date + "&end_date=" + end_date
 
-    params_others       = "&daily=rain_sum,showers_sum&timezone=auto"
+    params_others       = "&daily=rain_sum&timezone=auto"
 
     final_url = base_historical_url + params_lat_long + params_date + params_others
 
