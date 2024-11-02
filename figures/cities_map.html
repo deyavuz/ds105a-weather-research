@@ -1,0 +1,89 @@
+            <iframe src='about:blank' style='border:none !important;' width='800' height='500' srcdoc="&lt;html lang=&quot;en&quot;>
+   &lt;head>
+       &lt;meta charset=&quot;UTF-8&quot;>
+       &lt;style> html, body { margin: 0; overflow: hidden; } &lt;/style>
+       &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;library&quot; src=&quot;https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v4.4.1/js-package/distr/lets-plot.min.js&quot;>&lt;/script>
+   &lt;/head>
+   &lt;body>
+          &lt;div id=&quot;ZaFtuf&quot;>&lt;/div>
+   &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;plot&quot;>
+       var plotSpec={
+&quot;mapping&quot;:{
+},
+&quot;data_meta&quot;:{
+},
+&quot;ggsize&quot;:{
+&quot;width&quot;:800.0,
+&quot;height&quot;:500.0
+},
+&quot;kind&quot;:&quot;plot&quot;,
+&quot;scales&quot;:[],
+&quot;layers&quot;:[{
+&quot;geom&quot;:&quot;livemap&quot;,
+&quot;mapping&quot;:{
+},
+&quot;data_meta&quot;:{
+},
+&quot;zoom&quot;:2.0,
+&quot;tiles&quot;:{
+&quot;kind&quot;:&quot;vector_lets_plot&quot;,
+&quot;url&quot;:&quot;wss://tiles.datalore.jetbrains.com&quot;,
+&quot;theme&quot;:&quot;color&quot;,
+&quot;attribution&quot;:&quot;&lt;a href=\&quot;https://lets-plot.org\&quot;>© Lets-Plot&lt;/a>, map data: &lt;a href=\&quot;https://www.openstreetmap.org/copyright\&quot;>© OpenStreetMap contributors&lt;/a>.&quot;
+},
+&quot;geocoding&quot;:{
+&quot;url&quot;:&quot;https://geo2.datalore.jetbrains.com/map_data/geocoding&quot;
+},
+&quot;data&quot;:{
+}
+},{
+&quot;geom&quot;:&quot;hline&quot;,
+&quot;mapping&quot;:{
+&quot;yintercept&quot;:&quot;yintercept&quot;
+},
+&quot;data_meta&quot;:{
+},
+&quot;color&quot;:&quot;red&quot;,
+&quot;linetype&quot;:2.0,
+&quot;size&quot;:1.0,
+&quot;data&quot;:{
+&quot;yintercept&quot;:[0.0,0.0,0.0,0.0]
+}
+},{
+&quot;geom&quot;:&quot;point&quot;,
+&quot;data&quot;:{
+&quot;city&quot;:[&quot;Kyoto&quot;,&quot;London&quot;,&quot;Munich&quot;,&quot;Oslo&quot;,&quot;Seattle&quot;],
+&quot;geometry&quot;:[&quot;{\&quot;type\&quot;: \&quot;Point\&quot;, \&quot;coordinates\&quot;: [135.755607113242, 35.0210405141115]}&quot;,&quot;{\&quot;type\&quot;: \&quot;Point\&quot;, \&quot;coordinates\&quot;: [-0.144055305103075, 51.4893338084221]}&quot;,&quot;{\&quot;type\&quot;: \&quot;Point\&quot;, \&quot;coordinates\&quot;: [-98.8321342270712, 48.6698875576258]}&quot;,&quot;{\&quot;type\&quot;: \&quot;Point\&quot;, \&quot;coordinates\&quot;: [10.775728858116, 59.9723978340626]}&quot;,&quot;{\&quot;type\&quot;: \&quot;Point\&quot;, \&quot;coordinates\&quot;: [-122.313062421052, 47.6189685612917]}&quot;]
+},
+&quot;mapping&quot;:{
+&quot;color&quot;:&quot;city&quot;
+},
+&quot;show_legend&quot;:true,
+&quot;tooltips&quot;:{
+&quot;formats&quot;:[],
+&quot;title&quot;:&quot;@city&quot;
+},
+&quot;data_meta&quot;:{
+&quot;series_annotations&quot;:[{
+&quot;type&quot;:&quot;str&quot;,
+&quot;column&quot;:&quot;city&quot;
+},{
+&quot;type&quot;:&quot;str&quot;,
+&quot;column&quot;:&quot;found name&quot;
+},{
+&quot;type&quot;:&quot;unknown(pandas:unknown-array)&quot;,
+&quot;column&quot;:&quot;geometry&quot;
+}],
+&quot;geodataframe&quot;:{
+&quot;geometry&quot;:&quot;geometry&quot;
+}
+},
+&quot;size&quot;:5.0
+}],
+&quot;metainfo_list&quot;:[]
+};
+       var plotContainer = document.getElementById(&quot;ZaFtuf&quot;);
+       LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
+   &lt;/script>
+   &lt;/body>
+&lt;/html>"></iframe>    
