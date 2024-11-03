@@ -3,7 +3,10 @@
 # W6 Summative
 ### Candidate Number: 37492
 
-## Topic
+## Introduction
+This report was commisioned by the Office of Quirky Inquiries (OQI) to answer the following research question:
+
+## Research Question
 Is London really as rainy as the movies make it out to be?
 
 ## Data and Variables
