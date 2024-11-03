@@ -6,13 +6,13 @@
 ## Introduction
 This report was commisioned by the Office of Quirky Inquiries (OQI) to answer the following research question:
 
-## Research Question
+### Research Question
 Is London really as rainy as the movies make it out to be?
 
-## Data and Variables
+### Data and Variables
 All data was obtained through the publicly available world_cities.csv and the OpenMeteo.com Historical Weather website. The main variable used on OpenMeteo is <b> daily rain_sum </b>
 
-## Hypotheses
+### Hypotheses
 <b> H0: </b> London is no different than any other generally-rainy city, in terms of raininess
 
 <b> H1: </b> London is as rainy as the movies make it out to be, defined by how it compares to other cities on raininess
