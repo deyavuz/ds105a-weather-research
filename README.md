@@ -19,12 +19,13 @@ All data was obtained through the publicly available world_cities.csv and the Op
 
 ## Getting Started
 ### Order of Notebooks
-| No | Name | Content |
+| NB | Name | Content |
 | :--: | :--- | :--- |
-| 1 | [City Selection](https://github.com/lse-ds105/ds105a-2024-w06-summative-deyavuz/blob/main/code/NB02-City-Selection.ipynb) | x |
-| 2 | [Raininess Index](https://github.com/lse-ds105/ds105a-2024-w06-summative-deyavuz/blob/main/code/NB01-Raininess-Index.ipynb) | How I decided on my variables and created my Raininess Index |
-| 3 | [Rankings]() | x |
-| 4 | [Summary and Results]() | x |
+| 00 | [Preprocessing]() | x |
+| 01 | [City Selection](https://github.com/lse-ds105/ds105a-2024-w06-summative-deyavuz/blob/main/code/NB02-City-Selection.ipynb) | x |
+| 02 | [Raininess Index](https://github.com/lse-ds105/ds105a-2024-w06-summative-deyavuz/blob/main/code/NB01-Raininess-Index.ipynb) | How I decided on my variables and created my Raininess Index |
+| 03 | [Rankings]() | x |
+| 04 | [Summary and Results]() | x |
 
 ### Key Information on Data Collection
 
