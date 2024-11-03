@@ -29,12 +29,12 @@ All data was obtained through the publicly available world_cities.csv and the Op
 
 ### Key Information on Data Collection
 
-##### 1) The time period I have chosen is between 2021-01-01 and 2024-01-01
-I initially wanted to choose a start date that had significance for movies (e.g., the first movie screening in London). However, OpenMeteo's API does not go that far back, so I decided to adapt the time range and settled on 3 years.
+##### 1) The time period 
+My chosen time period is <b> between 2021-01-01 and 2024-01-01 </b>. I initially wanted to choose a start date that had significance for movies (e.g., the first movie screening in London). However, OpenMeteo's API does not go that far back, so I decided to adapt the time range and settled on 3 years.
 ##### 2) Number and selection of cities being compared to London
-I decided to compare London's raininess with 4 other cities. This was due to 5 being a large enough sample size to see between-city variations in raininess while also allowing for a simple, neat way to draw conclusions and plotting the data. The cities I decided on and why (alongside some movie references) can be found in NB01 [here]().
+I decided to compare London's raininess with <b> 4 other cities </b>. This was due to 5 being a large enough sample size to see between-city variations in raininess while also allowing for a simple, neat way to draw conclusions and plotting the data. The cities I decided on and why (alongside some movie references) can be found in NB01 [here]().
 ##### 3) My Raininess Index (and the variables used from OpenMeteo's API to create it)
-I have used the daily variable rain sum to build my Raininess Index. You can find more details about why I picked rain sum and how I converted rain_sum into raininess in NB02 [here]().
+I have used the <b> daily variable rain sum </b> to build my Raininess Index. You can find more details about why I picked rain sum and how I converted rain_sum into raininess in NB02 [here]().
 
 ## How to run the script
 
