@@ -54,3 +54,5 @@ def get_historical_data(country_code, city_name, start_date, end_date):
     return historical_data
 
 
+def get_city_data(df, city_name):
+    return df[df['city'] == city_name]
