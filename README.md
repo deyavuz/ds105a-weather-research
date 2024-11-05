@@ -6,8 +6,10 @@
 ## Introduction
 This report was commisioned by the Office of Quirky Inquiries (OQI) to answer the following research question:
 
-### Research Question
-Is London really as rainy as the movies make it out to be?
+### Research Question (RQ)
+I will be adapting the original RQ "Is London really as rainy as the movies make it out to be?" and instead exploring "Is London more rainy than other rainy cities portrayed in movies?"
+
+This adaptation was done due to constraints with resources (i.e., time and publicly available APIs), aiming to conduct research that will have mostly concise findings regarding the RQ and hypotheses. So, I decided to adapt the RQ and focus it on comparing London with other rainy movie-cities.
 
 ### Data and Variables
 All data was obtained through the publicly available [world_cities.csv](https://simplemaps.com/data/world-cities) and the [OpenMeteo.com Historical Weather API](https://open-meteo.com/en/docs/historical-weather-api). The main variable used on OpenMeteo is <b> daily rain_sum </b>, used to create an index called <b> the Raininess Index </b>. Based on OpenMeteo's description of daily variables, daily rain_sum is, as the name suggest, sum of daily rain in units mm.
