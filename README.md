@@ -27,7 +27,7 @@ All data was obtained through the publicly available [world_cities.csv](https://
 | 01 | [City Selection](code/NB01-City-Selection.ipynb) | Choosing 5 cities and saving their data as a CSV |
 | 02 | [Raininess Index](code/NB02-Raininess-Index.ipynb) | Creating the Raininess Index and plotting mean raininess |
 | 03 | [Rankings](code/NB03-Rankings.ipynb) | Ranking cities daily and overall on how rainy they are |
-| 04 | [Summary, Results, and Next Steps](code/NB04-Summary-Results-NS.ipynb) | Discussing results, limitations, and how the research could be expanded upon in the future |
+| 04 | [Summary, Results, and Next Steps](code/NB04-Summary-Results-NS.md) | Discussing results, limitations, and how the research could be expanded upon in the future |
 
 ### Key Information on Data Collection
 
@@ -46,7 +46,7 @@ Otherwise, proceed with running NB01-City-Selection, and then NB02 and NB03 resp
 NB04 is a markdown-only notebook explaining the results, limitations, and further research possibilities and thus has no other instructions.
 
 ## Findings
-I have gone into more detail in [NB04](code/NB04-Summary-Results-NS.ipynb), but to summarize:
+I have gone into more detail in [NB04](code/NB04-Summary-Results-NS.md), but to summarize:
 - London ranked 4/5 rainiest city in my dataset meaning that;
 - London is most likely <b> not </b> as rainy as the movies make it out to be...
 - ...Because there are at least 3 cities rainier than London, which also have considerable movie presences
