@@ -52,4 +52,4 @@ I have gone into more detail in [NB04](code/NB04-Summary-Results-NS.ipynb), but 
 - ...Because there are at least 3 cities rainier than London, which also have considerable movie presences
 
 ## Use of AI Chatbot, ChatGPT
-Although I did all of the coding and creative work for this assignment myself, I got help from ChatGPT when I needed help understanding my error codes and some chunks of code that we wrote in the labs/lectures. You can find a link to my conversation with the Chatbot [here]()!
+Although I did all of the coding and creative work for this assignment myself, I got help from ChatGPT when I needed help understanding my error codes and some chunks of code that we wrote in the labs/lectures. You can find a link to my conversation with the Chatbot [here](https://chatgpt.com/share/672bb555-47cc-8003-8c6c-0d92040d27d3)!
