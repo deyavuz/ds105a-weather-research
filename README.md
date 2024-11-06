@@ -19,12 +19,9 @@ All data was obtained through the publicly available [world_cities.csv](https://
 
 <b> H1: </b> London is rainier than the other selected cities
 
-### Methodology
-
-
 ## Getting Started
 ### Order of Notebooks
-| NB | Name | Content |
+| NB | Name | Content and Methodology |
 | :--: | :--- | :--- |
 | 00 | [Preprocessing](code/NB00-Preprocessing.ipynb) | Testing imported functions and the sample London dataframe |
 | 01 | [City Selection](code/NB01-City-Selection.ipynb) | Choosing 5 cities and saving their data as a CSV |
